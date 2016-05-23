@@ -50,52 +50,7 @@ public class WikiPhilosophy {
 
 		//Print final Url
 		System.out.println(url);
-
-	
-
-		// Elements paragraphs = wf.fetchWikipedia(url);
-
-		// Element firstPara = paragraphs.get(0);
 		
-		// Iterable<Node> iter = new WikiNodeIterable(firstPara);
-		
-		// int brackets = 0;
-		// for (Node node: iter) 
-		// {
-		// 	if(node instanceof Element)
-		// 	{
-		// 		Element ele = (Element)node;
-
-		// 		//Check 
-		// 		if(ele.tag().toString().equals("a") && brackets == 0 && !checkParents(ele) && !inBrackets(String.valueOf(node)))
-		// 		{
-		// 			String elementUrl = ele.attr("abs:href");
-		// 			System.out.print("-("+ elementUrl + ")-");
-		// 		}
-		// 	}
-			
-		// 	if (node instanceof TextNode) 
-		// 	{
-		// 		// node = (TextNode)node;
-		// 		String text = String.valueOf(node);
-				
-		// 		//Keep track of brackets
-		// 		for(int i =0; i < text.length(); i++)
-		// 		{
-		// 			if(text.charAt(i) == '(')
-		// 				brackets +=1;
-		// 			else if(text.charAt(i) == ')')
-		// 				brackets -= 1;
-		// 			System.out.print(text.charAt(i));
-		// 		}
-		// 		System.out.println();
-		// 	}
-        // }
-
-        // the following throws an exception so the test fails
-        // until you update the code
-        // String msg = "Complete this lab by adding your code and removing this statement.";
-        // throw new UnsupportedOperationException(msg);
 	}
 
 	public static String parseUrl(Elements paragraphs, HashSet<String> urls)
